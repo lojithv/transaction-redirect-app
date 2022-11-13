@@ -13,7 +13,7 @@ export default function Home() {
         <h1 className={styles.title}>
           Transaction Completed! Go Back To Marriage.lk
         </h1>
-        <button className={styles.button}>GO TO MARRIAGE.LK</button>
+        <button className={styles.button} onClick={()=>window.location.replace('http://localhost:3000/')}>GO TO MARRIAGE.LK</button>
       </main>
     </div>
   )
